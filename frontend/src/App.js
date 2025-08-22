@@ -135,17 +135,7 @@ function App() {
 
       {/* GIF Details Section */}
       {selectedGif && (
-        <div
-          className="gif-details"
-          style={{
-            border: '3px solid red',
-            backgroundColor: 'yellow',
-            padding: '20px',
-            margin: '20px',
-            zIndex: 9999,
-            position: 'relative'
-          }}
-        >
+        <div className="gif-details">
           <div className="gif-details-header">
             <h2>GIF Details</h2>
             <button
